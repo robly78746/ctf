@@ -19,7 +19,7 @@
 
 ### Misc 2/3
 * [breadsticks2](./Misc/breadsticks2)
-* [you can run, you can hide](./Misc/you%20can%20run%20%2Cyou%20can%20hide)
+* [you can run, you can hide](./Misc/you%20can%20run%2C%20you%20can%20hide)
 
 ### Scenario - MCCU 1/7
 * [00_intrusion](./Scenario-MCCU/00_intrusion)
