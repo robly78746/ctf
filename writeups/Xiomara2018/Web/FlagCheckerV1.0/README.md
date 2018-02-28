@@ -1,6 +1,6 @@
 # Flag Checker V1.0
 
-[website](./Flag checker.html)
+[website](./Flag%20checker.html)
 
 Upon opening the website, a dialog box asks us to "Enter the flag". When we enter an incorrect flag, we get the response "You got wrong flag". Looking at the source of the web page, we see the JavaScript file main.js. The code is obfuscated and coded in !, [, ], (, ), and +. The following is a snippet of main.js:
 
