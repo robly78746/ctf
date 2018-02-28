@@ -4,5 +4,6 @@ The challenges can be found at the their [GitHub repository](https://github.com/
 
 ## Challenges solved: 2
 
+### Web
 * [Flag Checker V1.0](./Web/FlagCheckerV1.0)
 * [Flag Checker V2.0](./Web/FlagCheckerV2.0)
