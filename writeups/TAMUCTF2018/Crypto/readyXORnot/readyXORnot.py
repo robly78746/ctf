@@ -1,9 +1,9 @@
 #python3
 from base64 import b64decode 
-def decrypt(num, key):
+def decrypt(encrypted, key):
     decrypted = ""
-    for i in range(len(num)):
-        decrypted += chr(num[i] ^ key[i % len(key)])
+    for i in range(len(encrypted)):
+        decrypted += chr(encrypted[i] ^ key[i % len(key)])
     return decrypted
 def xorBytes(bytes1, bytes2):
     result = bytearray()
