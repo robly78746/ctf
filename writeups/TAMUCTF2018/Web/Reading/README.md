@@ -18,8 +18,8 @@ I've saved the web page [here](./web1.ctf.tamu.edu.html). The website contains a
 	<!--adjnv.zx,vkjnlzkxcfjhvbk;szjdg;gigme{abksejrfha;siudghajdf,vbzxm,cbvlkzddshgpfiuasryugtiasdhbv,jzxcvn  j,gigem{xjmkscvlzddkhg;lisKjncklzxnv.zkjxbz.kjdbg;vhzkjsdhg;ilas uoi;aenvcioaweu;gigem{omvaeeiseu,tmboisdnpu tisgiaeu slitfyse;riyhujds;rxjofndf35gij1 7f68yg7u4h6 gigem{d52x18f63sz8d5 y3xlkdjfa;s ldjf;alsdu ;falskgsdh6ydn268t7yhg6h3dgigem{ynr1t7r868r67796t788710o1r68dmsne675b65swea75r657wae68t74ydr31857761w644757nw+b9r58y s+r97ys +bwr975yv69ew47er6a8wv17vb68ae71y gigem{69e7u68e71-->
 ```
 
-Using ctrl-f, I try highlighting "gigem{" and see there are too many (73) matches to skim through. The flag must end in "}", so I try highlighting that, and there are much fewer (19) matches. 
+Using ctrl-f, I try highlighting "gigem{" and see there are too many (73) matches to skim through. The flag must end in "}", so I try highlighting that, and there are much fewer (19) matches. The flag gigem{F!nD_a_F!AG!} could be found easily.
 
 ## Solution
 
-I look around the matches and find the flag: gigem{F!nD_a_F!AG!}. This could also be found with a regex like gigem{[^{]*}. The "[^{]" ensures matches don't contain other gigem{'s.
+Open the web page. Look at the source code. Ctrl-f for "}" and find the flag: gigem{F!nD_a_F!AG!}. This could also be found with a regex like gigem{[^{]*}. The "[^{]" ensures matches don't contain other gigem{'s.
