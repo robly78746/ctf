@@ -31,14 +31,16 @@ originalData = b'El Psy Congroo'
 encryptedData = "IFhiPhZNYi0KWiUcCls="
 encryptedFlag = "I3gDKVh1Lh4EVyMDBFo="
 decodedEncryptedData = b64decode(encryptedData)
-key = xorBytes(originalData, decodedEncryptedData)
-print('key: {}'.format(key))
+repeatedKey = xorBytes(originalData, decodedEncryptedData)
+print('repeated key: {}'.format(repeatedKey))
+```
+repeated key: b'e4Bne4Bne4Bne4'
+```
+key = b'e4Bn'
 decodedEncryptedFlag = b64decode(encryptedFlag)
 flag = decrypt(decodedEncryptedFlag, key)
 print('flag: {}'.format(flag))
 ```
-```
-key: b'e4Bne4Bne4Bne4'
 flag: FLAG=Alpacaman
-```
+
 The flag is Alpacaman.

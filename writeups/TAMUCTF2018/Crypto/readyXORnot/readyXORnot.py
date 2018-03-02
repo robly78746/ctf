@@ -1,9 +1,8 @@
-#python3
 from base64 import b64decode 
-def decrypt(encrypted, key):
+def decrypt(num, key):
     decrypted = ""
-    for i in range(len(encrypted)):
-        decrypted += chr(encrypted[i] ^ key[i % len(key)])
+    for i in range(len(num)):
+        decrypted += chr(num[i] ^ key[i % len(key)])
     return decrypted
 def xorBytes(bytes1, bytes2):
     result = bytearray()
@@ -15,8 +14,9 @@ originalData = b'El Psy Congroo'
 encryptedData = "IFhiPhZNYi0KWiUcCls="
 encryptedFlag = "I3gDKVh1Lh4EVyMDBFo="
 decodedEncryptedData = b64decode(encryptedData)
-key = xorBytes(originalData, decodedEncryptedData)
-print('key: {}'.format(key))
+repeatedKey = xorBytes(originalData, decodedEncryptedData)
+print('repeated key: {}'.format(repeatedKey))
+key = b'e4Bn'
 decodedEncryptedFlag = b64decode(encryptedFlag)
 flag = decrypt(decodedEncryptedFlag, key)
 print('flag: {}'.format(flag))
