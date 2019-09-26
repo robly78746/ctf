@@ -25,7 +25,7 @@
 * [00_intrusion](./Scenario-MCCU/00_intrusion)
 
 ### Scenario - BadBob 1/8
-* [00_Bob's Machine](./Scenario-BadBob/00_Bob%27s%20Machine)
+* [00_Bob's Machine](./Scenario-BadBob/00_BadBob's%20Machine)
 
 ### Network Exploit 0/6
 
