@@ -4,3 +4,4 @@
 
 ### Cryptography 5/9
 * [Vyom's Soggy Croutons](./Cryptography/Vyom's%20Soggy%20Croutons)
+* [Loony Tunes](./Cryptography/Loony%20Tunes)
