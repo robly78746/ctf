@@ -18,7 +18,7 @@ Hint: If you're new to RSA, you may want to try this tool: https://www.dcode.fr/
 
 If you like python, try the pow() function!
 
-rsa.txt
+[rsa.txt](./rsa.txt)
 
 ## Approach
 
