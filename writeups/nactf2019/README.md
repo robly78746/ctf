@@ -13,3 +13,4 @@
 * [Intro to Flags](./General%20Skills/Intro%20to%20Flags)
 * [Join the Discord](./General%20Skills/Join%20the%20Discord)
 * [What the HEX?](./General%20Skills/What%20the%20HEX)
+* [Off-base](./General%20Skills/Off-base)
