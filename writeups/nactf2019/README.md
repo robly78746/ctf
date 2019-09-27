@@ -7,3 +7,4 @@
 * [Loony Tunes](./Cryptography/Loony%20Tunes)
 * [Reversible Sneaky Algorithm #0](./Cryptography/Reversible%20Sneaky%20Algorithm%20%230)
 * [Super Duper AES](./Cryptography/Super%20Duper%20AES)
+* [Loony Tunes](./Cryptography/Reversible%20Sneaky%20Algorithm%20%231)
