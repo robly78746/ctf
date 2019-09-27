@@ -14,3 +14,5 @@
 * [Join the Discord](./General%20Skills/Join%20the%20Discord)
 * [What the HEX?](./General%20Skills/What%20the%20HEX)
 * [Off-base](./General%20Skills/Off-base)
+* [Cat over the wire](./General%20Skills/Cat%20over%20the%20wire)
+* [Grace's HashBrowns](./General%20Skills/Grace's%20HashBrowns)

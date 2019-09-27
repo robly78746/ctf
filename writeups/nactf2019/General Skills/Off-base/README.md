@@ -10,7 +10,7 @@ bmFjdGZ7YV9jaDRuZzNfMGZfYmE1ZX0=
 
 ## Approach
 
-From the description and the equals sign at the end of the text, we can guess this is base64 encoded. We can paste this into a base64 decoder and get the flag.
+From the description and the equals sign at the end of the text, we can guess this is base64 encoded. We can paste this into an [online base64 decoder](https://www.base64decode.org/) and get the flag.
 
 ## Solution
 
